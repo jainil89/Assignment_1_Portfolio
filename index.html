@@ -1,108 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<!-- This template used fabform.io to save form submissions -->
-  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Quirky Portfolio</title>
-    <!-- Tailwind CSS -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-<!--     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
-    <!-- Font Awesome for icons (optional) -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Jainil - Web Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<body class="bg-gray-100 text-gray-800">
 
-<body class="bg-gray-100">
-
-    <!-- Navigation -->
-    <nav class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto px-4">
-            <a href="#" class="text-2xl font-bold">🚀 My Quirky Portfolio 🎨</a>
-            <ul class="flex space-x-4">
-                <li><a href="#" class="hover:text-gray-300">🏠 Home</a></li>
-                <li><a href="#" class="hover:text-gray-300">💡 Projects</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="py-20 bg-gradient-to-b from-gray-800 to-gray-700 text-center">
-        <div class="container mx-auto px-4">
-            <h1 class="text-5xl font-bold text-white mb-4">👋 Hey there! Welcome to My Crazy Portfolio! 🎉</h1>
-            <p class="mt-2 text-lg text-gray-200">I code, I design, I drink coffee (a lot), and sometimes, I even sleep! 🛌</p>
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Jainil</h1>
+            <p class="text-lg">Web Developer</p>
         </div>
     </header>
 
+    <!-- About Section -->
+    <section class="container mx-auto my-8 px-4">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-700">
+            Hi, I'm Jainil, a passionate web developer with experience in building responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and modern frameworks like Tailwind CSS. I love turning ideas into reality through code.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container mx-auto my-8 px-4">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">HTML5</h3>
+                <p class="text-gray-700">Proficient in writing semantic and accessible HTML.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">CSS3</h3>
+                <p class="text-gray-700">Experienced in creating responsive designs with CSS.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">JavaScript</h3>
+                <p class="text-gray-700">Skilled in building interactive web applications.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
-    <section class="py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold mb-8 text-center">🚀 Featured Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <!-- Project Card -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://picsum.photos/seed/picsum/400/400" alt="Project Image" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-4">Project Title</h3>
-                        <p class="text-gray-700">This project is so cool, even my cat approves! 🐱</p>
-                        <a href="#" class="block text-blue-600 hover:underline mt-4">Check it out! 🚀</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://picsum.photos/seed/picsum/400/400" alt="Project Image" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-4">Project Title</h3>
-                        <p class="text-gray-700">This project is so cool, even my cat approves! 🐱</p>
-                        <a href="#" class="block text-blue-600 hover:underline mt-4">Check it out! 🚀</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://picsum.photos/seed/picsum/400/400" alt="Project Image" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-4">Project Title</h3>
-                        <p class="text-gray-700">This project is so cool, even my cat approves! 🐱</p>
-                        <a href="#" class="block text-blue-600 hover:underline mt-4">Check it out! 🚀</a>
-                    </div>
-                </div>
-                <!-- Repeat for other projects -->
+    <section class="container mx-auto my-8 px-4">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Project 1</h3>
+                <p class="text-gray-700">A responsive landing page built with HTML and Tailwind CSS.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Project 2</h3>
+                <p class="text-gray-700">An interactive web application using JavaScript.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Project 3</h3>
+                <p class="text-gray-700">A portfolio website showcasing my skills and projects.</p>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="bg-gray-200 py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold mb-8 text-center">✉️ Get in Touch!</h2>
-            <div class="max-w-md mx-auto">
-                <form  action="https://fabform.io/f/xxxxx" method="post" class="space-y-4">
-<div>
-                        <label for="name" class="block font-bold mb-2">Your Name</label>
-                        <input type="text" id="name" name="name" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Enter your name">
-                    </div>
-                    <div>
-                        <label for="email" class="block font-bold mb-2">Your Email</label>
-                        <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Enter your email">
-                    </div>
-                    <div>
-                        <label for="message" class="block font-bold mb-2">Your Message</label>
-                        <textarea name="message" id="message" rows="4" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Enter your message"></textarea>
-                    </div>
-                    <button type="submit" class="bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Send Message 🚀</button>
-                </form>
-                <p class="mt-4 text-center">Prefer email? Send me an email <a target=_blank" href="https://veilmail.io/irish-geoff" class="text-blue-600 font-bold hover:underline">https://veilmail.io/irish-geoff</a> instead!</p>
-            </div>
+    <section class="bg-blue-600 text-white py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+            <p class="text-lg">Feel free to reach out to me for any web development projects or collaborations.</p>
+            <a href="mailto:jainil@example.com" class="mt-4 inline-block bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold">Email Me</a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2024 My Quirky Portfolio. All rights reserved. Designed with ❤️ by [Your Name]</p>
-            <p>Powered by <a href="https://fabform.io" class="text-blue-400 hover:underline">FabForm.io</a></p>
-        </div>
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2023 Jainil. All rights reserved.</p>
     </footer>
 
 </body>
-
 </html>
